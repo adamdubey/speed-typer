@@ -1,13 +1,10 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({ handleStart, disabled }) => {
     return (
-        <div className="button">
-            <button>
-                Start
+            <button onClick={handleStart}>
+                {disabled ? "Start" : "Reset"}
             </button>
-            
-        </div>
     );
 };
 

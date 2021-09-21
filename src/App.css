@@ -37,9 +37,9 @@ button {
   display: flex;
 }
 
-/* Typeracer Styles */
+/* game Styles */
 
-.typeRacer {
+.game {
   width: 100%;
   height: 400px;
   display: flex;
@@ -49,7 +49,7 @@ button {
   background: #283149;
 }
 
-.typeRacer .wordOutput {
+.game .wordOutput {
   width: 100%;
   background: #111727;
   color: #fff;
@@ -57,12 +57,12 @@ button {
   text-align: center;
 }
 
-.typeRacer .wordOutput p {
+.game .wordOutput p {
   font-size: 26px;
   line-height: 1;
 }
 
-.typeRacer .time {
+.game .time {
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -71,19 +71,19 @@ button {
   display: flex;
 }
 
-.typeRacer .time p {
+.game .time p {
   margin: auto;
   font-size: 60px;
   line-height: 1;
 }
 
-.typeRacer .wordValues {
+.game .wordValues {
   width: 100%;
   height: 50px;
   display: flex;
 }
 
-.typeRacer .wordValues input {
+.game .wordValues input {
   width: 75%;
   height: 100%;
   padding: 12px;
@@ -93,7 +93,7 @@ button {
   color: #fff;
 }
 
-.typeRacer .wordValues input::placeholder {
+.game .wordValues input::placeholder {
   color: #fff;
 }
 
